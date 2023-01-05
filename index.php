@@ -1,8 +1,6 @@
 
 <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/style.css">
-
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-
 
 <div class="container">
     <div class="watch">
