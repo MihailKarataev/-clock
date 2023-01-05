@@ -1,0 +1,59 @@
+/**
+ * Theme Name: слайдер
+ */
+.container {
+    display: flex;
+    width: 100%;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+.watch {
+    height: 400px;
+    width: 400px;
+    position: relative;
+    display: flex;
+    background: url(clockface.jpg);
+    background-size: contain;
+    justify-content: center;
+    align-items: center;
+}
+.seconds {
+    position: absolute;
+    transform: rotate(0deg);/*6 = 1 секунда*/
+    height: 250px;
+    width: 3px;
+}
+.seconds-color {
+    margin: 0 auto;
+    background: #ff0101;
+    height: 50%;   
+}
+.minutes {
+    position: absolute;
+    transform: rotate(0deg);/*6 = 1 секунда*/
+    height: 200px;
+    width: 5px;
+}
+.minutes-color {
+    margin: 0 auto;
+    background: #000000;
+    height: 50%;   
+}
+.hours {
+    position: absolute;
+    transform: rotate(0deg);/*6 = 1 секунда*/
+    height: 150px;
+    width: 6px;
+}
+.hours-color {
+    margin: 0 auto;
+    background: #000000;
+    height: 50%;   
+}
+.point {
+    z-index: 999;
+    height: 2%;
+    width: 2%;
+    background:#000000;
+    border-radius: 100px;
+}
