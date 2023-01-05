@@ -1,6 +1,7 @@
 /**
  * Theme Name: слайдер
  */
+
 .container {
     display: flex;
     width: 100%;
@@ -30,7 +31,7 @@
 }
 .minutes {
     position: absolute;
-    transform: rotate(0deg);/*6 = 1 секунда*/
+    transform: rotate(0deg);
     height: 200px;
     width: 5px;
 }
@@ -41,7 +42,7 @@
 }
 .hours {
     position: absolute;
-    transform: rotate(0deg);/*6 = 1 секунда*/
+    transform: rotate(0deg);
     height: 150px;
     width: 6px;
 }
