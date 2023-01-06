@@ -13,7 +13,7 @@
     width: 400px;
     position: relative;
     display: flex;
-    background: url(clockface.jpg);
+    background: url(clockbg.jpg);
     background-size: contain;
     justify-content: center;
     align-items: center;
